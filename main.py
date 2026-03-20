@@ -33,7 +33,7 @@ while True:
     #Setter x0 til å bli x for å kunne sammenligne nye verdier
     x0 = x
 
-#Setter en y verdi til å bli f(x) når vi har funnet riktig x-verdi, printer så ut x og y-verdiene
+#Setter en y verdi til å bli f(x) når vi har funnet riktig x-verdi, printer så ut x og y-verdiene med 4 desimaler
 y = f(x)
 print(round(x, 4))
 print(round(y, 4))
