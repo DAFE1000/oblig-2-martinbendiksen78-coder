@@ -36,7 +36,7 @@ while True:
 #Setter en y verdi til å bli f(x) når vi har funnet riktig x-verdi, printer så ut x og y-verdiene
 y = f(x)
 print(round(x, 4))
-print(y)
+print(round(y, 4))
 
 #Setter verdier for x og y til å plotte funksjonen
 x_vals = np.linspace(0, 4, 100)
